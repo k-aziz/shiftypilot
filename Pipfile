@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 glfw = "*"
-pyxel = "*"
+pyxel = "==1.1.0"
 
 [requires]
 python_version = "3.7"

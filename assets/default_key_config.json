@@ -1,9 +1,9 @@
 {
-  "UP": 3014,
-  "DOWN": 3016,
-  "LEFT": 3017,
-  "RIGHT": 3015,
-  "WARP": 3002,
-  "SELECT": 3008,
-  "START": 3009
+  "UP": 40,
+  "DOWN": 36,
+  "LEFT": 18,
+  "RIGHT": 21,
+  "WARP": 27,
+  "SELECT": 34,
+  "START": 0
 }

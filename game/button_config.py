@@ -26,7 +26,9 @@ class ControllerConfig:
         self.timer = 0
 
     def btn_hold(self, key):
-        press = pyxel.btn(key)
+        press = None
+        if key:
+            press = pyxel.btn(key)
         if press:
             self.timer += press
         if self.timer > 60:
@@ -36,13 +38,13 @@ class ControllerConfig:
 
     @staticmethod
     def check_for_key():
-        for key in range(3000, 3050):
+        for key in range(0, 50):
             if pyxel.btnp(key):
                 return key
 
     @staticmethod
     def check_for_held_key():
-        for key in range(3000, 3050):
+        for key in range(0, 50):
             if pyxel.btn(key):
                 return key
 
